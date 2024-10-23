@@ -1,6 +1,8 @@
-### Overview of Regression Project - DRAFT
-================
+### Wave Farm Energy Generation Project - DRAFT
+
 #### Paula McCree-Bailey
+
+### **Overview of Regression Project**
 
 The main goal of Project 3 is to get experience working with a regression problem. The goal is to create a blog that includes (1) an introduction to topic and dataset. Next, (2) discuss what regression is and how it works (specifically linear regression). Math for bonus points. Then, (3) discuss experiments with different types of regression. Lastly, (4) conclude with what you have learned from this project.
 
@@ -71,7 +73,7 @@ From the initial data understanding, there is no null or missing values.  Also, 
 ### Experiment 1:Modeling  --To BE COMPLETED
 Create a linear regression model for your first experiment.
 
-Documentation: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.htmlLinks to an external site.
+[Documentation:[("https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html")
 ```
 # Split data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=21)
@@ -90,27 +92,24 @@ print(f'Mean Squared Error: {mse}')
 rmse = root_mean_squared_error(y_test, y_pred)
 print(f'Root Mean Squared Error:  {rmse}')
 ```
-### Experiment 2  --To BE COMPLETED 
+### **Experiment 2  --To BE COMPLETED** 
 
-### Experiment 3 --To BE COMPLETED
+### **Experiment 3 --To BE COMPLETED**
 
-### Impact Section --To BE COMPLETED
+### **Impact Section --To BE COMPLETED**
 
-### Conclusion --To BE COMPLETED
+### **Conclusion --To BE COMPLETED**
 
-### References
+### **References**
 
 *   [Optimisation of large wave farms using a multi-strategy evolutionary framework](https://www.semanticscholar.org/paper/153a3eeff91e73eb45338719579a900972f7a9ca)
 * Neshat, Mehdi, Bradley Alexander, Nataliia Y. Sergiienko, and Markus Wagner. "Optimisation of large wave farms using a multi-strategy evolutionary framework." In Proceedings of the 2020 Genetic and Evolutionary Computation Conference, pp. 1150-1158. 2020.
 *   https://education.nationalgeographic.org/resource/all-about-the-ocean/
-
-
 *   https://www.power-technology.com/projects/perth-wave-energy-project/
 *   https://createdigital.org.au/wave-energy-landscape/
-
 *   https://www.abc.net.au/news/2022-07-31/wave-power-generator-supplying-king-island-with-electricity/101282070
-* https://www.abc.net.au/listen/programs/scienceshow/perth-wave-energy-project-producing-power-and-fresh-water/6507450
-* https://medium.com/@ingaleashay/loading-and-displaying-images-in-google-colab-a-guide-with-opencv-pil-and-matplotlib-d13bf5b8fe6b
-* https://www.geeksforgeeks.org/how-to-place-legend-outside-of-the-plot-in-matplotlib/
+*   https://www.abc.net.au/listen/programs/scienceshow/perth-wave-energy-project-producing-power-and-fresh-water/6507450
+*   https://medium.com/@ingaleashay/loading-and-displaying-images-in-google-colab-a-guide-with-opencv-pil-and-matplotlib-d13bf5b8fe6b
+*   https://www.geeksforgeeks.org/how-to-place-legend-outside-of-the-plot-in-matplotlib/
 
 
